@@ -32,5 +32,5 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('Launching Music Search on port: ' + app.get('port'));
+  console.log('Launching Rocket Music Search Engine on port: ' + app.get('port'));
 });
