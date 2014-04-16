@@ -1,6 +1,6 @@
 //Getting Your API Key
 function fetchApiKey(callback) {
-    var myKey = '1SZKGEEHOWNRCJ8SJ';
+    var myKey = '1SZKGEEHOWNRCJ8SJ'; // This will obviously need to change
     $.ajax( {
             type:"GET", 
             dataType: "json", 
